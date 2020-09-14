@@ -29,7 +29,7 @@ while (player1.alive? && player2.alive?) do
   puts "#{player1.name} #{player1.lives}/3 lives and #{player2.name} #{player2.lives}/3 lives"
   else
     player.lives -= 1
-    puts "Incorrect! Wrong answerl"
+    puts "Incorrect! Wrong answer"
     puts "#{player1.name} #{player1.lives}/3 lives and #{player2.name} #{player2.lives}/3 lives"
   end
   current_player = (current_player + 1) % 2
